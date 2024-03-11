@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página da banda">
+    <meta name="author" content="Magda Figueiredo">
+    <link rel="shortcut icon" href="icons/logosite-transformed.ico" type="image/x-icon">
+    <title>Banda Charlie Brown Jr</title>
+    <link rel="stylesheet" href="sitecantor.css">
+    <script src="sitecantor.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Charlie Brown Jr</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#section-discografia">Discografia</a></li>
+                    <li><a href="#section-tours">Tours</a></li>
+                    <li><a href="#section-video">Videos</a></li>
+                    <li><a href="#section-contact">Contacto</a></li>
+                    <li class="dropdown">
+                        <a href="#">Mais</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="./bio.html">Biografia</a></li>
+                            <li><a href="#section-noticias">Notícias</a></li>
+                            <li><a href="#section-imagens">Imagens</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="search">
+                    <input type="text" placeholder="Pesquisar">
+                    <button type="button"><img src="./icons/search.svg" alt="search"></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="disco">
+        <div class="album description-padding">
+            <h2>Novo Álbum</h2>
+            <p>Confira nosso último lançamento!</p>
+            <div class="content">
+                <div>
+                    <a href="https://www.youtube.com/playlist?list=PLwd1GA8E_KI8ZyJ1u0bnS17SAwgeCj71K">
+                        <figure>
+                            <img src="./images/capalbumjpg.jpg" class="newalbum" alt="Novo Álbum">
+                            <figcaption>Capa da edição completa do álbum — Foto: Divulgação</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <video class="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"
+                    src="./images/videohome.mov">
+                    <source src="./images/videohome.mov" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-discografia">
+        <h2>Discografia</h2>
+        <div class="discografias">
+            <div class="discografia">
+                <img src="./images/disco1999.jpg" class="grow" alt="disco1">
+                <p>Preço Curto. Prazo Longo 1999</p>
+            </div>
+            <div class="discografia">
+                <img src="./images/disco2002.jpg" class="grow" alt="disco2">
+                <p>Bocas Ordinárias 2002</p>
+            </div>
+            <div class="discografia">
+                <img src="./images/disco2003.jpg" class="grow" alt="disco3">
+                <p>Acústico MTV: Charlie Brown Jr 2003</p>
+            </div>
+        </div>
+        <br>
+        <div class="discografias">
+            <div class="discografia">
+                <img src="./images/disco2004.jpg" class="grow" alt="disco4">
+                <p>Tamo Aí na Atividade 2024</p>
+            </div>
+            <div class="discografia">
+                <img src="./images/disco2009.jpg" class="grow" alt="disco5">
+                <p>Camisa 10 Joga Bola Até na Chuva 2009</p>
+            </div>
+            <div class="discografia">
+                <img src="./images/disco2013.jpg" class="grow" alt="disco6">
+                <p>La Familia 013 2013</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-tours" class="tours">
+        <h2>Tours</h2>
+        <img src="./icons/show.png" class="imgtour" alt="tour">
+        <h3>Reserve o seu bilhete</h3>
+        <div class="tickets">
+            <div class="full-withradius border">
+                <img src="./images/show1.jpg" class="shows" alt="show1">
+                <p>Dia 26 de janeiro de 2024 São Paulo/SP.</p>
+                <form id="buy" class="reserva">
+                    <button class="botao" type="submit">Reserve seu ingresso</button>
+                </form>
+            </div>
+            <div class="border full-withradius">
+                <img src="./images/show2.jpeg" class="shows" alt="show2">
+                <p>Dia 16 de Março de 2024 Blumenau/SC.</p>
+                <form id="buy" class="reserva">
+                    <button class="botao" type="submit">Reserve seu ingresso</button>
+                </form>
+            </div>
+            <div class="border full-withradius">
+                <img src="./images/show3.jpg" class="shows" alt="show3">
+                <p>Dia 23 de Março de 2024 Santos/SP</p>
+                <form id="buy" class="reserva">
+                    <button class="botao" type="submit">Reserve seu ingresso</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-contact" class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco.</p>
+            <form id="contact-form">
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <ul class="socials">
+                <li>
+                    <a href="https://www.facebook.com/cbjroficial/?locale=pt_PT">
+                        <img src="./icons/socialfacebook.svg" alt="facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/charliebrownjr/">
+                        <img src="./icons/socialinstagram.svg" alt="instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/cbjroficial?lang=pt">
+                        <img src="./icons/socialtwitter.svg" alt="twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@cbjr./featured">
+                        <img src="./icons/socialyoutube.svg" alt="youtube">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/artist/1on7ZQ2pvgeQF4vmIA09x5">
+                        <img src="./icons/socialspotify.svg" alt="spotify">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <p>© 2024. TODOS OS DIREITOS RESERVADOS. <a href="#">Termos e Condições</a> | <a href="#">Política de
+                Privacidade</a> | <a href="#">Política de Cookies</a> | <a href="#">Configurações de Cookies</a>
+        </p>
+    </div>
+
+</body>
+
+</html>
