@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página da banda">
-    <meta name="author" content="Magda Figueiredo">
+    <meta name="description"
+        content="Bem-vindo à página oficial da banda Charlie Brown Jr.! Aqui você encontrará informações sobre a história da banda, discografia, datas de turnê, vídeos e muito mais.">
     <link rel="shortcut icon" href="icons/logosite-transformed.ico" type="image/x-icon">
     <title>Banda Charlie Brown Jr</title>
     <link rel="stylesheet" href="sitecantor.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.css">
     <script src="sitecantor.js" defer></script>
 </head>
 
@@ -16,26 +17,25 @@
 
     <header>
         <div class="container">
-            <h1>Charlie Brown Jr</h1>
+            <h1 class="fa-sharp fa-solid fa-fade"> Charlie Brown Jr </h1>
             <nav class="navbar">
                 <ul>
                     <li><a href="#top">Home</a></li>
                     <li><a href="#section-discografia">Discografia</a></li>
                     <li><a href="#section-tours">Tours</a></li>
-                    <li><a href="#section-video">Videos</a></li>
                     <li><a href="#section-contact">Contacto</a></li>
                     <li class="dropdown">
                         <a href="#">Mais</a>
                         <ul class="dropdown-menu">
                             <li><a href="./bio.html">Biografia</a></li>
-                            <li><a href="#section-noticias">Notícias</a></li>
-                            <li><a href="#section-imagens">Imagens</a></li>
                         </ul>
                     </li>
                 </ul>
                 <div class="search">
                     <input type="text" placeholder="Pesquisar">
-                    <button type="button"><img src="./icons/search.svg" alt="search"></button>
+                    <button aria-label="search" type="button">
+                        <i class="fa-solid fa-magnifying-glass iconsearch"></i>
+                    </button>
                 </div>
             </nav>
         </div>
@@ -75,7 +75,7 @@
             </div>
             <div class="discografia">
                 <img src="./images/disco2003.jpg" class="grow" alt="disco3">
-                <p>Acústico MTV: Charlie Brown Jr 2003</p>
+                <p>Acústico MTV 2003</p>
             </div>
         </div>
         <br>
@@ -97,26 +97,25 @@
 
     <section id="section-tours" class="tours">
         <h2>Tours</h2>
-        <img src="./icons/show.png" class="imgtour" alt="tour">
         <h3>Reserve o seu bilhete</h3>
         <div class="tickets">
             <div class="full-withradius border">
                 <img src="./images/show1.jpg" class="shows" alt="show1">
-                <p>Dia 26 de janeiro de 2024 São Paulo/SP.</p>
+                <p>26 de janeiro de 2024 São Paulo/SP.</p>
                 <form id="buy" class="reserva">
                     <button class="botao" type="submit">Reserve seu ingresso</button>
                 </form>
             </div>
             <div class="border full-withradius">
                 <img src="./images/show2.jpeg" class="shows" alt="show2">
-                <p>Dia 16 de Março de 2024 Blumenau/SC.</p>
+                <p> 16 de Março de 2024 Blumenau/SC.</p>
                 <form id="buy" class="reserva">
                     <button class="botao" type="submit">Reserve seu ingresso</button>
                 </form>
             </div>
             <div class="border full-withradius">
                 <img src="./images/show3.jpg" class="shows" alt="show3">
-                <p>Dia 23 de Março de 2024 Santos/SP</p>
+                <p>23 de Março de 2024 Santos/SP</p>
                 <form id="buy" class="reserva">
                     <button class="botao" type="submit">Reserve seu ingresso</button>
                 </form>
@@ -141,27 +140,32 @@
             <ul class="socials">
                 <li>
                     <a href="https://www.facebook.com/cbjroficial/?locale=pt_PT">
-                        <img src="./icons/socialfacebook.svg" alt="facebook">
+                        <img src="./icons/facebook-f.svg" alt="facebook">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/charliebrownjr/">
-                        <img src="./icons/socialinstagram.svg" alt="instagram">
+                        <img src="./icons/instagram.svg" alt="instagram">
                     </a>
                 </li>
                 <li>
                     <a href="https://twitter.com/cbjroficial?lang=pt">
-                        <img src="./icons/socialtwitter.svg" alt="twitter">
+                        <img src="./icons/x-twitter.svg" alt="twitter">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.youtube.com/@cbjr./featured">
-                        <img src="./icons/socialyoutube.svg" alt="youtube">
+                        <img src="./icons/youtube.svg" alt="youtube">
                     </a>
                 </li>
                 <li>
                     <a href="https://open.spotify.com/artist/1on7ZQ2pvgeQF4vmIA09x5">
-                        <img src="./icons/socialspotify.svg" alt="spotify">
+                        <img src="./icons/spotify.svg" alt="spotify">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/@charliebrownjr">
+                        <img src="./icons/tiktok.svg" alt="tiktok">
                     </a>
                 </li>
             </ul>
